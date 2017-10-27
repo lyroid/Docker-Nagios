@@ -8,7 +8,7 @@ ENV NAGIOS_CMDUSER         nagios
 ENV NAGIOS_CMDGROUP        nagios
 ENV NAGIOS_FQDN            nagios.example.com
 ENV NAGIOSADMIN_USER       nagiosadmin
-ENV NAGIOSADMIN_PASS       nagios
+ENV NAGIOSADMIN_PASS       878^Pm>:#'ka
 ENV APACHE_RUN_USER        nagios
 ENV APACHE_RUN_GROUP       nagios
 ENV NAGIOS_TIMEZONE        UTC
