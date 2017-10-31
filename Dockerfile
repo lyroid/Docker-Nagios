@@ -219,6 +219,7 @@ ADD postfix.init /etc/sv/postfix/run
 ADD rsyslog.init /etc/sv/rsyslog/run
 ADD start.sh /usr/local/bin/start_nagios
 RUN chmod +x /usr/local/bin/start_nagios
+RUN chmod -R +x /etc/sv/
 
 # enable all runit services
 RUN ln -s /etc/sv/* /etc/service
