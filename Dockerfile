@@ -196,6 +196,7 @@ ADD nagios/cgi.cfg /opt/nagios/etc/cgi.cfg
 ADD nagios/templates.cfg /opt/nagios/etc/objects/templates.cfg
 ADD nagios/commands.cfg /opt/nagios/etc/objects/commands.cfg
 ADD nagios/localhost.cfg /opt/nagios/etc/objects/localhost.cfg
+ADD nagios/_localhost.cfg /opt/nagios/etc/objects/_localhost.cfg
 
 ADD rsyslog/rsyslog.conf /etc/rsyslog.conf
 
