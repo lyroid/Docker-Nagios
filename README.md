@@ -35,11 +35,12 @@ docker run --name nagios4  \
 
 Note: The path for the custom plugins will be /opt/Custom-Nagios-Plugins, you will need to reference this directory in your configuration scripts.
 
-For best results your Nagios image should have access to both IPv4 & IPv6 networks 
+For best results your Nagios image should have access to both IPv4 & IPv6 networks
 
 #### Credentials
 
 The default credentials for the web interface is `nagiosadmin` / `nagios`
+20171031/Rex/Default password has been changed.
 
 ### Extra Plugins
 
@@ -48,5 +49,3 @@ The default credentials for the web interface is `nagiosadmin` / `nagios`
 * JR-Nagios-Plugins -  custom plugins I've created [https://github.com/JasonRivers/nagios-plugins]
 * WL-Nagios-Plugins -  custom plugins from William Leibzon [https://github.com/willixix/WL-NagiosPlugins]
 * JE-Nagios-Plugins -  custom plugins from Justin Ellison [https://github.com/justintime/nagios-plugins]
-
-
